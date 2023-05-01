@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doom</title>
+    <link rel="stylesheet" href="scripts/style.css">
+</head>
+
+<body>
+    <div align="center">
+
+        <!--Funcion para cambiar el texto-->
+        <div id="texto">
+            Este texto cambiara al tocar el siguiente boton<br>
+        </div>
+        <button onclick="CambioDeTexto()">Click</button>
+        <br><br>
+
+        <!--Funcion para cambiar de color el fondo-->
+
+        <div id="ColorN">
+            Click para cambiar de color el fondo<br>
+            <button onclick="CambioDeColor()">Click</button>
+        </div>
+        <br><br>
+
+        <!--Funcion de alerta al hacer click-->
+
+        <div id="alerta">
+            Click para mostrar alerta<br>
+            <button onclick="MostrarAlerta()">Click</button>
+        </div>
+        <br><br>
+
+        <!--Funcion para cambiar el estilo de un elemento ocultandolo y cambiando su texto por ocultar o mostrar segun sea el caso-->
+
+        <div id="ElementoDiv">
+            Este es el texto que va a cambiar alternadamente<br>
+            
+        </div>
+        <button onclick="OcultarMostrar()" id="MiBoton">Click</button>
+    </div>
+    <script src="scripts/doomsday.js"></script>
+</body>
+
+</html>
